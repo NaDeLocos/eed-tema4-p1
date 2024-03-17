@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-03-17T21:53:46.240Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.291 Electron/28.2.7 Safari/537.36" etag="QK-U0ff76yWi6MYLlSn5" version="23.1.5" type="device">
+<mxfile host="Electron" modified="2024-03-17T21:59:26.293Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.291 Electron/28.2.7 Safari/537.36" etag="BGfeMtz2WHcCAtKagW4v" version="23.1.5" type="device">
   <diagram name="Página-1" id="uwZHr8G1LPB-tQ-PlY2a">
     <mxGraphModel dx="1114" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
         <mxCell id="B8BXQAc4DHJJyGiQGTcE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="B8BXQAc4DHJJyGiQGTcE-13" target="B8BXQAc4DHJJyGiQGTcE-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B8BXQAc4DHJJyGiQGTcE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startSize=9;endSize=15;" parent="1" source="B8BXQAc4DHJJyGiQGTcE-17" target="B8BXQAc4DHJJyGiQGTcE-13" edge="1">
+        <mxCell id="B8BXQAc4DHJJyGiQGTcE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;startSize=9;endSize=15;" parent="1" source="B8BXQAc4DHJJyGiQGTcE-17" target="B8BXQAc4DHJJyGiQGTcE-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="615" y="720" />
