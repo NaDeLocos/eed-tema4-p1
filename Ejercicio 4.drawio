@@ -1,0 +1,156 @@
+<mxfile host="Electron" modified="2024-03-17T21:48:52.892Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.291 Electron/28.2.7 Safari/537.36" etag="uJVXll2BKM6bQEM0EWPf" version="23.1.5" type="device">
+  <diagram name="Página-1" id="uwZHr8G1LPB-tQ-PlY2a">
+    <mxGraphModel dx="1114" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;endSize=11;jumpSize=7;startSize=11;" edge="1" parent="1" source="Fi-VEqSTx7MsVRrRpxML-1" target="Fi-VEqSTx7MsVRrRpxML-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-1" value="&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;br&gt;EstadoCopia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="451" width="160" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-2" value="enBiblioteca&lt;br&gt;prestada&lt;br&gt;conRetraso&lt;br&gt;enReparacion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-1">
+          <mxGeometry y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-1">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-72" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=11;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="Fi-VEqSTx7MsVRrRpxML-5" target="Fi-VEqSTx7MsVRrRpxML-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-5" value="Copia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="456" width="160" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-6" value="# id : int&lt;br&gt;# estado : EstadoCopia&lt;br&gt;# ocupante : Lector&lt;br&gt;# libroReferencia : Libro" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-5">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-5">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;endSize=12;" edge="1" parent="1" source="Fi-VEqSTx7MsVRrRpxML-9" target="Fi-VEqSTx7MsVRrRpxML-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-9" value="Autor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="265" width="160" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-10" value="# nombre : String&lt;br&gt;# nacionalidad : String&lt;br&gt;# fechaNacimiento: Fecha" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-9">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-9">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Fi-VEqSTx7MsVRrRpxML-13" target="Fi-VEqSTx7MsVRrRpxML-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-73" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;endSize=11;" edge="1" parent="1" source="Fi-VEqSTx7MsVRrRpxML-13" target="Fi-VEqSTx7MsVRrRpxML-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-13" value="Lector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="680" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-14" value="# numeroSocio : int&lt;br&gt;# nombre : String&lt;br&gt;# telefono : String&lt;br&gt;# direccion : String&lt;br&gt;# librosPrestados : Copia [ ]&lt;br&gt;# prestamos : Prestamo [ ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-13">
+          <mxGeometry y="26" width="190" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-13">
+          <mxGeometry y="120" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-16" value="# cantidadLibrosPrestados() int&lt;br&gt;# realizarPrestamo(Copia) void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-13">
+          <mxGeometry y="128" width="190" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-17" value="&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;br&gt;TipoDeLibro" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="259" width="130" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-18" value="novela&lt;br&gt;teatro&lt;br&gt;poesia&lt;br&gt;ensayo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-17">
+          <mxGeometry y="40" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-17">
+          <mxGeometry y="110" width="130" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;endSize=10;" edge="1" parent="1" source="Fi-VEqSTx7MsVRrRpxML-17" target="Fi-VEqSTx7MsVRrRpxML-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;endSize=12;" edge="1" parent="1" source="Fi-VEqSTx7MsVRrRpxML-25" target="Fi-VEqSTx7MsVRrRpxML-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-25" value="Libro" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="250" width="160" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-26" value="# nombre : String&lt;br&gt;# tipo : TipoDeLibro&lt;br&gt;# editorial : String&lt;br&gt;# anyo : int&lt;br&gt;# autor : Autor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-25">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-25">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-42" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="409" y="278" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-43" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="278" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-47" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="329" y="421" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-48" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="329" y="368" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-49" value="escrito por" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="278" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-51" value="0..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="650" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-52" value="0..3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="289" y="559" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-53" value="dispone de" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="329" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-59" value="Prestamo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="559" width="160" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-60" value="# fechaInicio : Fecha&lt;br&gt;# fechaDevolucion : Fecha&lt;br&gt;# copiaPrestada : Copia&lt;br&gt;# prestado : Lector" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-59">
+          <mxGeometry y="30" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-61" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-59">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;endSize=10;" edge="1" parent="1" source="Fi-VEqSTx7MsVRrRpxML-63" target="Fi-VEqSTx7MsVRrRpxML-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-63" value="Fecha" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="398" width="160" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-64" value="# segundo: int&lt;br&gt;# minuto : int&lt;br&gt;# hora : int&lt;br&gt;# dia : int&lt;br&gt;# mes : int&lt;br&gt;# anyo : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-63">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Fi-VEqSTx7MsVRrRpxML-63">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;endSize=10;" edge="1" parent="1" source="Fi-VEqSTx7MsVRrRpxML-63" target="Fi-VEqSTx7MsVRrRpxML-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-74" value="0..3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="667" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-75" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="550" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-76" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="424" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-77" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="508" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-79" value="tiene" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="454" y="660" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fi-VEqSTx7MsVRrRpxML-81" value="involucrada en" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="568" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
